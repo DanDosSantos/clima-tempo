@@ -23,7 +23,7 @@ def escolher_icone(condicao):
 
 @app.route('/', methods=['GET', 'POST'])
 def previsao():
-    api_key = '9c4c7eb9b637d6c898f59ef2aa1637a7'
+    api_key = 'SUA API AQUI'
     city = ''
     error_message = ''
 
